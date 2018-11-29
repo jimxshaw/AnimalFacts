@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AnimalfactsApplication {
+public class AnimalFactsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AnimalfactsApplication.class, args);
+		SpringApplication.run(AnimalFactsApplication.class, args);
 	}
 }
