@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class AnimalFact {
 
-    private long id;
+    private Long id;
 
     private String fact;
 
@@ -13,7 +13,7 @@ public class AnimalFact {
         return id;
     }
 
-    public void setId(final long id) {
+    public void setId(final Long id) {
         this.id = id;
     }
 
