@@ -15,7 +15,7 @@ public class AnimalFact {
 
     private String fact;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 

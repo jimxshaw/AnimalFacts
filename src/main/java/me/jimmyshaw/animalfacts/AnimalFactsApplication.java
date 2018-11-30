@@ -21,7 +21,7 @@ public class AnimalFactsApplication {
 		return args -> {
 			repository.save(createFact("Cats don't have the taste buds to taste sweet foods"));
 			repository.save(createFact("Birds are immune to the heat of chili peppers"));
-			repository.save(createFact("Wombat dropings are shaped like cubes"));
+			repository.save(createFact("Wombat droppings are shaped like cubes"));
 			repository.save(createFact("A platypus produces venom"));
 			repository.save(createFact("A grizzly bear's bite can crush a bowling ball"));
 
