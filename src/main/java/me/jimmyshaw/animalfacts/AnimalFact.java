@@ -2,9 +2,15 @@ package me.jimmyshaw.animalfacts;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "ANIMAL_FACT")
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class AnimalFact {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String fact;
