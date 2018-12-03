@@ -8,6 +8,9 @@ management:
     web:
       exposure:
         include: actuator,info,health,metrics
+  endpoint:
+    health:
+      show-details: always
 
 info:
   animalFactsDateOfCreation: 11/30/2018
