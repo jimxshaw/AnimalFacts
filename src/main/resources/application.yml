@@ -11,6 +11,9 @@ management:
   endpoint:
     health:
       show-details: always
+  health:
+    diskspace:
+      enabled: false
 
 info:
   animalFactsDateOfCreation: 11/30/2018
