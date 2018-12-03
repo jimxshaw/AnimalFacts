@@ -17,3 +17,8 @@ management:
 
 info:
   animalFactsDateOfCreation: 11/30/2018
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
