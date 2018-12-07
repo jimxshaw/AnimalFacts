@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Animal Facts</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Animal Facts</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="index.css"/>
 </head>
 <body>
-    <h1>Animal Facts Index Page</h1>
+<h1>Animal Facts Index Page</h1>
+<table>
+	<tr>
+		<th>Id</th>
+		<th>Fact</th>
+	</tr>
+	<th:block th:each="fact : ${facts}">
+		<tr>
+			<td th:text="${fact.id}">Id</td>
+			<td th:text="${fact.fact}">Fact</td>
+		</tr>
+	</th:block>
+</table>
 </body>
 </html>
